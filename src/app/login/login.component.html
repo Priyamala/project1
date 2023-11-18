@@ -1,0 +1,7 @@
+<p>User Name</p>
+<input type="text" class="input" name="name" placeholder="username" class="form-control" [(ngModel)]="name"><br>
+<p>Password</p>
+<input type="password" class="input" name="pwd" placeholder="password"  class="form-control" [(ngModel)]="pwd"><br>
+<button type="button" (click)="checklogin()" class="btn btn-success">Login</button>
+<button type="button" (click)="redirecttologin()" class="btn btn-warning">redirect</button>
+{{msg}}
